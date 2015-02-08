@@ -1,0 +1,92 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+}
+
+body {
+	font-family: "Jockey One";
+	color: white;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	width: 19.0476%;
+	margin: 5.4987% 4.7619% 5.4987% 4.7619%;
+	background: red;
+}
+
+.nav {
+	float: left;
+	width: 19.0476%;
+	margin: 10.9974% 52.3809% 10.9974% 0;
+}
+
+.nav h1 {
+	font-size: 56.71px;
+	line-height: 71%;
+	padding: 5.5985% 0 5.5985% 3.4624%;
+	background: #ED1D48;
+}
+
+.nav li {
+	float: left;
+	width: 21.5424%;
+	line-height: 71%;
+	padding: 5.5985% 0 5.5985% 3.4624%;
+	list-style: none;
+}
+
+.nav li:nth-child(1) {
+	background: #290D3C;
+}
+
+.nav li:nth-child(2) {
+	background: #A61945;
+}
+
+.work {
+	float: left;
+	width: 42.8571%;
+	margin: 0 4.7619% 5.4987% 4.7619%;
+}
+
+.row .work:last-child {
+	margin: 0 4.7619% 5.4987% 0;
+}
+
+img {
+	float: left;
+	width: 100%;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+p {
+	font-size: 26px;
+	opacity: 0.5;
+}
+
+#glacier-simulation {
+	background: #2989AB;
+}
+
+#protein-building {
+	background: #365540;
+}
+
+/*
+@media (min-width: 320px) {
+	.work { width: 90%; }
+}
+
+@media (min-width: 768px) {
+	.work { width: 42.8571%; }
+}*/
