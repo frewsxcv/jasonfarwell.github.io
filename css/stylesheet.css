@@ -3,9 +3,38 @@
 	margin: 0px;
 }
 
+body {
+	color: white;
+}
+
 .container {
 	max-width: 960px;
 	margin: 0 auto;
+}
+
+.nav {
+	position: relative;
+	list-style: none;
+}
+
+.nav ul {
+	position: absolute;
+	right: 0;
+	padding: 5.2485% 18.4539% 0 0;
+}
+
+.nav li {
+	display: inline;
+	font-family: "Jockey One";
+	font-size: 1.221em;
+	opacity: 0.6;
+}
+
+.nav li:first-child {
+	display: block;
+	font-family: "Jockey One";
+	font-size: 2.929em;
+	opacity: 1.0;
 }
 
 .canvas {
