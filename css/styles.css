@@ -1,0 +1,62 @@
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 0;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 51.07px;
+}
+
+.header {
+	margin-top: 57.125px;
+	text-align: center;
+}
+
+.logo {
+	margin-bottom: 23.75px;
+	display: inline-flex;
+}
+
+.icon {
+	width: 21.89px;
+	height: 21.89px;
+	margin: auto 0;
+	background-color: black;
+}
+
+h1 {
+	font-size: 30.5px;
+	line-height: 31.53px;
+}
+
+.logo h1 {
+	display: inline-block;
+}
+
+.logo h1:nth-child(2) {
+	font-weight: 300;
+}
+
+li, p {
+	font-size: 19.25px;
+	font-weight: 300;
+	line-height: 31.53px;
+}
+
+.col {
+	margin: 42.054px 0 42.054px 0;
+}
+
+img {
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+/*@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}*/
