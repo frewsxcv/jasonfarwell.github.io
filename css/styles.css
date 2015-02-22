@@ -67,6 +67,10 @@ img {
 	margin-bottom: 25px;
 }
 
+p a {
+	text-decoration: underline;
+}
+
 /*@media (min-width: 768px) {}
 @media (min-width: 992px) {}
 @media (min-width: 1200px) {}*/
