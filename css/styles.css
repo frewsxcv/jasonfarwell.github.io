@@ -27,8 +27,8 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	opacity: 0.66;
+li a:hover {
+	text-decoration: underline;
 }
 
 .icon {
