@@ -27,15 +27,11 @@ a {
 	text-decoration: none;
 }
 
-li a:hover {
-	text-decoration: underline;
-}
-
 .icon {
 	display: inline-block;
 	width: 21.89px;
 	height: 21.89px;
-	margin: auto 1.896px auto 0;
+	margin-right: 1.896px;
 	background-color: black;
 }
 
@@ -58,8 +54,16 @@ li, p {
 	line-height: 31.53px;
 }
 
+.underline-link:hover {
+	text-decoration: underline;
+}
+
+.octicon {
+	display: none;
+}
+
 .col {
-	margin: 42.054px 0 42.054px 0;
+	margin: 42.054px 0;
 }
 
 img {
@@ -71,6 +75,75 @@ p a {
 	text-decoration: underline;
 }
 
-/*@media (min-width: 768px) {}
-@media (min-width: 992px) {}
-@media (min-width: 1200px) {}*/
+p a:hover {
+	text-decoration: none;
+}
+
+@media (min-width: 768px) {
+
+	.container {
+		max-width: 665.86px;
+	}
+
+	.header {
+		text-align: right;
+	}
+
+	.logo {
+		float: left;
+		margin-bottom: 0;
+	}
+
+	.nav {
+		vertical-align: top;
+	}
+
+	li {
+		display: inline-block;
+		margin-left: 51.07px;
+	}
+
+	.mobile-only {
+		display: none;
+	}
+
+	.octicon {
+		display: inline;
+		font-size: 21.89px;
+	}
+
+	.col {
+		float: left;
+		width: 307.084px;
+		margin: 47.181px 51.277px 0 0;
+	}
+
+	.col:last-child {
+		margin-right: 0;
+	}
+
+}
+
+@media (min-width: 980px) {
+
+	.container {
+		max-width: 877.445px
+	}
+
+	.col {
+		width: 413.084px;
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+	.container {
+		max-width: 1097.445px;
+	}
+
+	.col {
+		width: 523.084px;
+	}
+
+}
