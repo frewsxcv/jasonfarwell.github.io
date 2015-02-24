@@ -136,14 +136,14 @@ p a:hover {
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1062.743px) {
 
 	.container {
-		max-width: 1097.445px;
+		max-width: 960px;
 	}
 
 	.col {
-		width: 523.084px;
+		width: 454.252px;
 	}
 
 }
