@@ -5,7 +5,7 @@ var canvas = d3.select(".icon"),
 	cells = new Array(width * height),
 	frontier = [],
 	visited = 0,
-	hue = 175;
+	hue = 172;
 
 // needed for pixel manipulation
 var image = context.createImageData(width, height);
@@ -45,7 +45,7 @@ setPixel(index);
 
 d3.timer(function() {
 	var i = 0, done;
-	while (i++ < 10 && !(done = expand()));
+	while (i++ < 8 && !(done = expand()));
 	return done;
 });
 
@@ -71,7 +71,7 @@ function expand() {
 
 function setPixel(index) {
 	index = index * 4;
-	var color = d3.hsl((hue += 0.07) % 360, 1, 0.5).rgb();
+	var color = d3.hsl((hue += 0.075) % 360, 1, 0.5).rgb();
 	image.data[index + 0] = color.r;
 	image.data[index + 1] = color.g;
 	image.data[index + 2] = color.b;
