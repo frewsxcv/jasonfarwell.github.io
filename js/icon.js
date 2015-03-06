@@ -45,7 +45,7 @@ setPixel(index);
 
 d3.timer(function() {
 	var i = 0, done;
-	while (i++ < 8 && !(done = expand()));
+	while (i++ < 9 && !(done = expand()));
 	return done;
 });
 
