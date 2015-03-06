@@ -119,6 +119,10 @@ p a:hover {
 		margin-right: 0;
 	}
 
+	.row:last-child .col {
+		margin-bottom: 42.054px;
+	}
+
 }
 
 @media (min-width: 980px) {
