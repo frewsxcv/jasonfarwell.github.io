@@ -8,7 +8,7 @@ var canvas = d3.select(".icon"),
 
 var color1 = d3.rgb(41, 255, 158),
 	color2 = d3.rgb(72, 155, 255),
-	steps = 310,
+	steps = 280,
 	step = 0;
 
 // needed for pixel manipulation
