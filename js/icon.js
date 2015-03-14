@@ -69,8 +69,9 @@ function setPixel(index) {
 }
 
 function popRandom(array) {
-	if (!array.length) return;
-	var n = array.length, i = Math.random() * n | 0, t;
-	t = array[i], array[i] = array[n - 1], array[n - 1] = t;
-	return array.pop();
+	var index = Math.round(Math.random() * (array.length - 1)); // pick random element
+	var selected = array[index];
+	array[index] = array[array.length - 1];
+	array[array.length - 1] = selected; // make last element in array
+	return array.pop(); // remove from array
 }
