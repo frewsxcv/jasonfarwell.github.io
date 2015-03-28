@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="octicons/octicons.css">
+  <link rel="stylesheet" href="css/octicons/octicons.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
@@ -14,7 +14,7 @@
   <div class="container">
     <div class="header">
       <div class="logo">
-        <a href="#">
+        <a href="/">
           <div class="icon"></div>
           <h1>jason</h1>
           <h1>farwell</h1>
@@ -22,70 +22,50 @@
       </div>
       <div class="nav">
         <ul>
-          <li><a class="projects underline" href="#">projects</a></li>
-          <li><a class="about underline" href="#">about</a></li>
-          <li><a class="contact underline" href="#">contact</a></li>
+          <li><a class="underline" href="/">projects</a></li>
+          <li><a class="underline" href="/info">about</a></li>
+          <li><a class="underline" href="/info">contact</a></li>
           <li><a href="https://github.com/jasonfarwell" target="_blank"><span class="mobile underline">github</span><span class="octicon octicon-mark-github"></span></a></li>
         </ul> 
       </div>
     </div>
     <div class="content">
-      <div class="home">
-        <div class="col">
-          <a href="rising-blocks" target="_blank">
-            <img src="images/img.png">
-            <h1>Project One</h1>
-          </a>
-          <p>Description <a href="">Link</a> (2015)</p>
-        </div>
-        <div class="col">
-          <a href="rising-blocks" target="_blank">
-            <img src="images/img.png">
-            <h1>Project One</h1>
-          </a>
-          <p>Description (2015)</p>
-        </div>
-        <div class="col">
-          <a href="rising-blocks" target="_blank">
-            <img src="images/img.png">
-            <h1>Project One</h1>
-          </a>
-          <p>Description (2015)</p>
-        </div>
-        <div class="col">
-          <a href="rising-blocks" target="_blank">
-            <img src="images/img.png">
-            <h1>Project One</h1>
-          </a>
-          <p>Description (2015)</p>
-        </div>
-        <div class="col">
-          <a href="rising-blocks" target="_blank">
-            <img src="images/img.png">
-            <h1>Project One</h1>
-          </a>
-          <p>Description (2015)</p>
-        </div>
+      <div class="col">
+        <a href="rising-blocks" target="_blank">
+          <img src="images/img.png">
+          <h1>Project One</h1>
+        </a>
+        <p>Description <a href="">Link</a> (2015)</p>
       </div>
-      <div class="info">
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in porta orci. Aenean at nibh sit amet justo vehicula dignissim. Proin semper porta ligula, non condimentum urna luctus quis. Aliquam in elit justo. Sed sollicitudin lacinia ex, at finibus elit sollicitudin vel. Cras eu velit rutrum, pulvinar odio sit amet, eleifend lorem. Morbi lacus sapien, sagittis non neque vel, ultricies ultrices erat. Maecenas et sapien condimentum, cursus neque at, ornare nulla. In commodo diam et velit scelerisque pellentesque.</p>
-        </div>
+      <div class="col">
+        <a href="rising-blocks" target="_blank">
+          <img src="images/img.png">
+          <h1>Project One</h1>
+        </a>
+        <p>Description (2015)</p>
+      </div>
+      <div class="col">
+        <a href="rising-blocks" target="_blank">
+          <img src="images/img.png">
+          <h1>Project One</h1>
+        </a>
+        <p>Description (2015)</p>
+      </div>
+      <div class="col">
+        <a href="rising-blocks" target="_blank">
+          <img src="images/img.png">
+          <h1>Project One</h1>
+        </a>
+        <p>Description (2015)</p>
+      </div>
+      <div class="col">
+        <a href="rising-blocks" target="_blank">
+          <img src="images/img.png">
+          <h1>Project One</h1>
+        </a>
+        <p>Description (2015)</p>
       </div>
     </div>
   </div>
-  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-  <script>
-    $(function() {
-      $('.about, .contact').click(function() {
-        $('.home').hide();
-        $('.info').show();
-      });
-      $('.logo, .projects').click(function() {
-        $('.info').hide();
-        $('.home').show();
-      });     
-    })
-  </script>
 </body>
 </html>
