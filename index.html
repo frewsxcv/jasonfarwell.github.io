@@ -9,73 +9,83 @@
   <link rel="stylesheet" href="octicons/octicons.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
-  <script src="http://d3js.org/d3.v3.min.js"></script>
 </head>
 <body>
   <div class="container">
     <div class="header">
       <div class="logo">
         <a href="#">
-          <canvas width="21.89" height="21.89" class="icon">
-            <script src="js/icon.js" type="text/javascript"></script>
-          </canvas>
+          <div class="icon"></div>
           <h1>jason</h1>
           <h1>farwell</h1>
         </a>
       </div>
       <div class="nav">
         <ul>
-          <li><a class="underline-link" href="#">projects</a></li>
-          <li><a class="underline-link" href="#about">about</a></li>
-          <li><a class="underline-link" href="#contact">contact</a></li>
-          <li><a href="https://github.com/jasonfarwell" target="_blank"><span class="underline-link mobile-only">github</span><span class="octicon octicon-mark-github"></span></a></li>
-        </ul>
+          <li><a class="projects underline" href="#">projects</a></li>
+          <li><a class="about underline" href="#">about</a></li>
+          <li><a class="contact underline" href="#">contact</a></li>
+          <li><a href="https://github.com/jasonfarwell" target="_blank"><span class="mobile underline">github</span><span class="octicon octicon-mark-github"></span></a></li>
+        </ul> 
       </div>
     </div>
     <div class="content">
-      <div class="row">
+      <div class="home">
         <div class="col">
-          <a href="http://jasonfarwell.github.io/rising-blocks/" target="_blank">
+          <a href="rising-blocks" target="_blank">
             <img src="images/img.png">
-            <h1>Rising Blocks</h1>
+            <h1>Project One</h1>
           </a>
-          <p>Just messing around with <a href="http://d3js.org/" target="_blank">d3.js</a> transitions.</p>
+          <p>Description <a href="">Link</a> (2015)</p>
         </div>
         <div class="col">
-          <a href="http://jasonfarwell.github.io/rising-blocks/" target="_blank">
+          <a href="rising-blocks" target="_blank">
             <img src="images/img.png">
-            <h1>Rising Blocks</h1>
+            <h1>Project One</h1>
           </a>
-          <p>Just messing around with <a href="http://d3js.org/" target="_blank">d3.js</a> transitions.</p>
-        </div>    
+          <p>Description (2015)</p>
+        </div>
+        <div class="col">
+          <a href="rising-blocks" target="_blank">
+            <img src="images/img.png">
+            <h1>Project One</h1>
+          </a>
+          <p>Description (2015)</p>
+        </div>
+        <div class="col">
+          <a href="rising-blocks" target="_blank">
+            <img src="images/img.png">
+            <h1>Project One</h1>
+          </a>
+          <p>Description (2015)</p>
+        </div>
+        <div class="col">
+          <a href="rising-blocks" target="_blank">
+            <img src="images/img.png">
+            <h1>Project One</h1>
+          </a>
+          <p>Description (2015)</p>
+        </div>
       </div>
-      <div class="row">
+      <div class="info">
         <div class="col">
-          <a href="http://jasonfarwell.github.io/rising-blocks/" target="_blank">
-            <img src="images/img.png">
-            <h1>Rising Blocks</h1>
-          </a>
-          <p>Just messing around with <a href="http://d3js.org/" target="_blank">d3.js</a> transitions.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in porta orci. Aenean at nibh sit amet justo vehicula dignissim. Proin semper porta ligula, non condimentum urna luctus quis. Aliquam in elit justo. Sed sollicitudin lacinia ex, at finibus elit sollicitudin vel. Cras eu velit rutrum, pulvinar odio sit amet, eleifend lorem. Morbi lacus sapien, sagittis non neque vel, ultricies ultrices erat. Maecenas et sapien condimentum, cursus neque at, ornare nulla. In commodo diam et velit scelerisque pellentesque.</p>
         </div>
-        <div class="col">
-          <a href="http://jasonfarwell.github.io/rising-blocks/" target="_blank">
-            <img src="images/img.png">
-            <h1>Rising Blocks</h1>
-          </a>
-          <p>Just messing around with <a href="http://d3js.org/" target="_blank">d3.js</a> transitions.</p>
-        </div>    
       </div>
-      <div class="row">
-        <div class="col">
-          <h1 id="about">About</h1>
-          <p>I'm currently a student at <a href="http://www.ucla.edu/" target="_blank">UCLA</a> in the department of <a href="http://dma.ucla.edu/" target="_blank">Design | Media Arts</a>.</p>
-        </div>
-        <div class="col">
-          <h1 id="contact">Contact</h1>
-          <p>You can contact me at <a href="mailto:jasonrfarwell@gmail.com">jasonrfarwell@gmail.com</a> or <a href="mailto:jasonrfarwell@gmail.com">jasfar@ucla.edu</a>.</p>
-        </div>    
-      </div>   
     </div>
   </div>
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <script>
+    $(function() {
+      $('.about, .contact').click(function() {
+        $('.home').hide();
+        $('.info').show();
+      });
+      $('.logo, .projects').click(function() {
+        $('.info').hide();
+        $('.home').show();
+      });     
+    })
+  </script>
 </body>
 </html>
