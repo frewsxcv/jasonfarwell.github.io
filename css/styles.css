@@ -1,150 +1,128 @@
 html {
 	-webkit-font-smoothing: antialiased;
 }
-
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 0;
 }
-
 .container {
+	width: 83.33%;
 	margin: 0 auto;
-	padding: 0 51.07px;
 }
-
 .header {
-	margin-top: 57.125px;
 	text-align: center;
+	margin-top: 60.891px;
 }
-
-.logo {
-	display: inline-flex;
-	margin-bottom: 23.75px;
-}
-
 a {
 	color: black;
 	text-decoration: none;
 }
-
-.icon {
-	display: inline-block;
-	margin-right: 1.896px;
+.logo, .nav {
+	display: block;
 }
-
+.logo {
+	margin-bottom: 26.389px;
+}
+.icon, img {
+	border: 1px solid;
+}
+.icon {
+	width: 23.977px;
+	height: 23.977px;
+	margin-right: 2.563px;
+}
 h1 {
 	font-size: 34.36px;
-	line-height: 31.53px;
 }
-
-.logo h1 {
+h1, li, p {
+	line-height: 35px;
+}
+.logo .icon, h1 {
 	display: inline-block;
 }
-
 .logo h1:nth-child(2) {
 	font-weight: 300;
 }
-
 li, p {
 	font-size: 21.69px;
 	font-weight: 300;
-	line-height: 31.53px;
 }
-
-.underline-link:hover {
-	text-decoration: underline;
+.underline:hover {
+    box-shadow: inset 0 -4px 0 white, inset 0 -5px 0 black
 }
-
 .octicon {
 	display: none;
 }
-
-.col {
-	margin: 42.054px 0;
+.content {
+	margin: 46.39px 0;
 }
-
+.home {
+	display: block;
+}
+.info {
+	display: none;
+}
+.col {
+	margin-bottom: 46.39px;
+	vertical-align: top;
+}
 img {
 	width: 100%;
-	margin-bottom: 25px;
+	margin-bottom: 20.146px;
 }
-
+.col h1 {
+	padding: 4px 0;
+}
 p a {
-	text-decoration: underline;
+	box-shadow: inset 0 -4px 0 white, inset 0 -5px 0 black
 }
-
 p a:hover {
-	text-decoration: none;
+	box-shadow: none;
 }
-
 @media (min-width: 768px) {
-
-	.container {
-		max-width: 665.86px;
-	}
-
 	.header {
-		text-align: right;
+		overflow: hidden;
+		padding-bottom: 3px;
 	}
-
 	.logo {
 		float: left;
 		margin-bottom: 0;
 	}
-
 	.nav {
-		vertical-align: top;
+		float: right;
 	}
-
-	li {
+	.nav ul li {
 		display: inline-block;
-		margin-left: 51.07px;
+		line-height: 34.36px;
+		margin-left: 56.265px;
 	}
-
-	.mobile-only {
+	.mobile {
 		display: none;
 	}
-
 	.octicon {
 		display: inline;
 		font-size: 21.69px;
 	}
-
-	.col {
-		float: left;
-		width: 307.084px;
-		margin: 47.181px 51.277px 0 0;
+	.content {
+		margin-top: 48.202px;
 	}
-
-	.col:last-child {
+	.col {
+		display: inline-block;
+		width: calc((100% - 56.265px) / 2);
+		margin-right: 56.265px;
+	}
+	.col:nth-child(2n) {
 		margin-right: 0;
 	}
-
-	.row:last-child .col {
-		margin-bottom: 42.054px;
-	}
-
 }
-
-@media (min-width: 980px) {
-
-	.container {
-		max-width: 877.445px
-	}
-
-	.col {
-		width: 413.084px;
-	}
-
-}
-
 @media (min-width: 1200px) {
-
-	.container {
-		max-width: 1000px;
-	}
-
 	.col {
-		width: 470.911px;
+		width: calc((100% - (56.265px * 2)) / 3);
 	}
-
+	.col:nth-child(2n) {
+		margin-right: 56.265px;
+	}
+	.col:nth-child(3n) {
+		margin-right: 0;
+	}
 }
