@@ -33,7 +33,7 @@ a {
 }
 
 h1 {
-	font-size: 30.5px;
+	font-size: 34.36px;
 	line-height: 31.53px;
 }
 
@@ -46,7 +46,7 @@ h1 {
 }
 
 li, p {
-	font-size: 19.25px;
+	font-size: 21.69px;
 	font-weight: 300;
 	line-height: 31.53px;
 }
@@ -106,7 +106,7 @@ p a:hover {
 
 	.octicon {
 		display: inline;
-		font-size: 21.89px;
+		font-size: 21.69px;
 	}
 
 	.col {
@@ -140,11 +140,11 @@ p a:hover {
 @media (min-width: 1200px) {
 
 	.container {
-		max-width: 960px;
+		max-width: 1000px;
 	}
 
 	.col {
-		width: 454.252px;
+		width: 470.911px;
 	}
 
 }
