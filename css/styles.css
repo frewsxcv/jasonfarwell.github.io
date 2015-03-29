@@ -47,7 +47,7 @@ li, p {
 	font-size: 21.69px;
 	font-weight: 300;
 }
-.nav-item:hover {
+.nav-button:hover {
     box-shadow: inset 0 -4px 0 white, inset 0 -5px 0 black
 }
 .octicon {
@@ -63,7 +63,7 @@ li, p {
 	display: none;
 }
 .col {
-	margin-bottom: 46.39px;
+	margin-bottom: 46.38px;
 	vertical-align: top;
 }
 img {
@@ -71,7 +71,7 @@ img {
 	margin-bottom: 20.146px;
 }
 .col h1 {
-	padding: 4px 0;
+	padding: 5px 0;
 }
 p a {
 	box-shadow: inset 0 -4px 0 white, inset 0 -5px 0 black
