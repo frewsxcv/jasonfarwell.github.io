@@ -79,7 +79,7 @@ p a {
 p a:hover {
 	box-shadow: none;
 }
-.contact {
+#contact {
 	vertical-align: bottom;
 }
 @media (min-width: 768px) {
