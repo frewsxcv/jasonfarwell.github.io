@@ -11,7 +11,7 @@ body {
 }
 .header {
 	text-align: center;
-	margin-top: 60.891px;
+	margin-top: 61.758px;
 }
 a {
 	color: black;
@@ -35,7 +35,7 @@ h1 {
 	font-size: 34.36px;
 }
 h1, li, p {
-	line-height: 35px;
+	line-height: 36px;
 }
 .logo .icon, h1 {
 	display: inline-block;
@@ -53,18 +53,20 @@ li, p {
 .octicon {
 	display: none;
 }
-.content {
-	margin: 46.39px 0;
+#projects {
+	margin: 44.093px 0;
 }
-.home {
-	display: block;
-}
-.info {
-	display: none;
+#info {
+	margin: 35.609px 0;
 }
 .col {
-	margin-bottom: 46.38px;
 	vertical-align: top;
+}
+#projects .col {
+	margin-bottom: 44.093px;
+}
+#info .col {
+	margin-bottom: 36.426px;
 }
 img {
 	width: 100%;
@@ -106,8 +108,11 @@ p a:hover {
 		display: inline;
 		font-size: 21.69px;
 	}
-	.content {
-		margin-top: 48.202px;
+	#projects {
+		margin: 47.64px 0;
+	}
+	#info {
+		margin: 38px 0;
 	}
 	.col {
 		display: inline-block;
