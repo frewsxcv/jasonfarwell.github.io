@@ -54,11 +54,14 @@ li, p {
 .octicon {
 	display: none;
 }
+.content {
+	margin-bottom: 44.093px;;
+}
 #projects {
-	margin: 44.093px 0;
+	margin-top: 44.093px;
 }
 #info {
-	margin: 35.609px 0;
+	margin-top: 35.609px;
 }
 .col {
 	vertical-align: top;
@@ -110,10 +113,10 @@ p a:hover {
 		font-size: 21.69px;
 	}
 	#projects {
-		margin: 47.64px 0;
+		margin-top: 47.64px;
 	}
 	#info {
-		margin: 38px 0;
+		margin-top: 38px;
 	}
 	.col {
 		display: inline-block;
