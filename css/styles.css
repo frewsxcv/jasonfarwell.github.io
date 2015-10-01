@@ -78,6 +78,7 @@ a:hover, a:focus {
 .images {
   position: absolute;
   left: 380px;
+  margin-right: 19px;
 }
 img {
   vertical-align: middle;
