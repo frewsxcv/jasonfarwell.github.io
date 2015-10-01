@@ -2,56 +2,86 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>jasonfarwell</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400'>
-  <link rel="stylesheet" type='text/css' href="css/reset.css">
-  <link rel="stylesheet" type='text/css' href="css/octicons/octicons.css">
-  <link rel="stylesheet" type='text/css' href="css/styles.css">
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width, minimum-scale=1">
+
+  <title>Jason Farwell</title>
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400">
+
 </head>
+
 <body>
-  <div class="container">
-    <div class="header">
-      <div class="logo">
-        <a href="/">
-          <div class="icon"></div>
-          <h1>jason</h1>
-          <h1>farwell</h1>
-        </a>
-      </div>
-      <div class="nav">
-        <ul>
-          <li><a class="nav-button" href="/">projects</a></li>
-          <li><a class="nav-button" href="/info">about</a></li>
-          <li><a class="nav-button" href="/info#contact">contact</a></li>
-          <li><a href="https://github.com/jasonfarwell" target="_blank"><span class="mobile nav-button">github</span><span class="octicon octicon-mark-github"></span></a></li>
-        </ul> 
-      </div>
-    </div>
-    <div id="projects" class="content">
-      <div class="col">
-        <a href="rising-blocks" target="_blank">
-          <img src="images/rising-blocks.jpg">
-          <h1>Rising Blocks</h1>
-        </a>
-        <p>Web app made with <a href="http://d3js.org/" target="_blank">d3.js</a> (2015)</p>
-      </div>
-      <div class="col">
-        <a href="projects/snake-pong-hybrid.zip">
-          <img src="images/snake-pong-hybrid.jpg">
-          <h1>Snake-Pong Hybrid</h1>
-        </a>
-        <p>Applet made with <a href="https://processing.org/" target="_blank">Processing</a> (2014)</p>
-      </div>
-      <div class="col">
-        <a href="projects/flow-field.zip" download>
-          <img src="images/flow-field.jpg">
-          <h1>Flow Field</h1>
-        </a>
-        <p>Applet made with <a href="https://processing.org/" target="_blank">Processing</a> (2014)</p>
-      </div>
-    </div>
+
+  <div id="nav">
+    <a href="#google-car" class="subnav">Artwork for Google's <br>Self-Driving Car</a>
+    <a href="#snake-pong" class="subnav">Snake-Pong <br>Arcade Game</a>
+    <a href="#vector-field" class="subnav">Vector Field Editor</a>
+    <a href="#" class="subnav">Infographic on the Color 'Brown'</a>
   </div>
+
+
+  <div id="content">
+
+    <div class="project" id="google-car">
+      <div class="info">
+        <div class="title">
+          Artwork for Google's Self-Driving Car
+        </div>
+        <div class="properties">
+          September 2015
+          <br> Print
+          <br> 50.5” x 30.5”
+        </div>
+        <div class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam neque arcu, auctor vitae sem sit amet, semper varius turpis. In non libero eu purus semper pellentesque sit amet non mi.
+        </div>
+      </div>
+      <div class="images">
+        <img src="img/google-car.png">
+      </div>
+    </div>
+
+    <div class="project" id="snake-pong">
+      <div class="info">
+        <div class="title">
+          <i>Snake-Pong</i> <br>Arcade Game
+        </div>
+        <div class="properties">
+          June 2014
+          <br>Made with Processing
+          <br><a href="https://github.com/jasonfarwell/snake_pong" target="_blank">Source</a>
+        </div>
+        <div class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam neque arcu, auctor vitae sem sit amet, semper varius turpis. In non libero eu purus semper pellentesque sit amet non mi.
+        </div>
+      </div>
+      <div class="images">
+        <img src="img/snake-pong.jpg">
+      </div>
+    </div>
+
+    <div class="project" id="vector-field">
+      <div class="info">
+        <div class="title">
+          Vector Field Editor
+        </div>
+        <div class="properties">
+          March 2014
+          <br>Made with Processing
+          <br><a href="https://github.com/jasonfarwell/vector_field_editor" target="_blank">Source</a>
+        </div>
+        <div class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam neque arcu, auctor vitae sem sit amet, semper varius turpis. In non libero eu purus semper pellentesque sit amet non mi.
+        </div>
+      </div>
+      <div class="images">
+        <img src="img/vector-field.jpg">
+      </div>
+    </div>
+
+  </div>
+
 </body>
 </html>
