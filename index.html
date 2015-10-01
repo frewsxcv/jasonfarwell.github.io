@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1.0, width=device-width, minimum-scale=1">
+  <!--   <meta name="viewport" content="initial-scale=1.0, width=device-width, minimum-scale=1"> -->
 
   <title>Jason Farwell</title>
 
@@ -82,6 +82,16 @@
     </div>
 
   </div>
+
+  <script type="text/javascript" src="lib/jquery-1.11.3.min.js">
+  $(document).ready(function() {
+
+    $(window).scroll(function() {
+      $("#nav").css("top", $(window).scrollTop() + "px"); 
+   });
+    
+  });
+  </script>
 
 </body>
 </html>
